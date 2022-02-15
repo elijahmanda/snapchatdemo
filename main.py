@@ -14,7 +14,7 @@ Builder.load_string('''
         on_press: camera.play = not camera.play
         size_hint_y: None
         height: '48dp'
-    Button:
+    MDRoundFlatButton:
         text: 'Capture'
         size_hint_y: None
         height: '48dp'
